@@ -121,7 +121,7 @@ Si cambias el puerto o dominio del backend, actualiza esas URLs en tu código Re
 ## 🧑‍💻 Autor
 
 **Tu Nombre**  
-[GitHub](https://github.com/tuusuario) · [LinkedIn](https://linkedin.com/in/tuusuario)
+[GitHub](https://github.com/JoseCarmona17)
 
 ---
 
