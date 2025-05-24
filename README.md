@@ -1,7 +1,7 @@
 
-# 📘 Apploan – Aplicación Web de Gestión de Préstamos
+# 📘 Payloans – Aplicación Web de Gestión de Préstamos
 
-Apploan es una aplicación web fullstack que permite registrar, consultar y actualizar préstamos y deudas personales.  
+Payloans es una aplicación web fullstack que permite registrar, consultar y actualizar préstamos y deudas personales.  
 Este proyecto está compuesto por un **frontend en React + Vite + Tailwind** y un **backend en Node.js con almacenamiento en archivo JSON**.
 
 ---
