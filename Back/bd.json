@@ -1,0 +1,249 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Juan Maza",
+      "email": "juan@example.com",
+      "password": "j12345"
+    },
+    {
+      "id": 2,
+      "name": "Fernando Arias",
+      "email": "fernando@example.com",
+      "password": "f12345"
+    },
+    {
+      "id": 3,
+      "name": "Jose Andres",
+      "email": "jose@example.com",
+      "password": "j54321"
+    },
+    {
+      "id": 4,
+      "name": "user2",
+      "email": "user2@prueba.com",
+      "password": "clave123"
+    },
+    {
+      "id": 5,
+      "name": "Andres Anaya",
+      "email": "andres2@example.com",
+      "password": "andres123"
+    }
+  ],
+  "debts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "amount": 100000,
+      "name": "Juan Rodríguez",
+      "date": "2023-01-01",
+      "status": "pending",
+      "address": "Calle 123",
+      "interest": "5%"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "amount": 200000,
+      "name": "María Gómez",
+      "date": "2023-02-01",
+      "status": "paid",
+      "address": "Calle 123",
+      "interest": "5%"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "amount": 150000,
+      "name": "Luis Ramírez",
+      "date": "2023-03-01",
+      "status": "pending",
+      "address": "Calle 123",
+      "interest": "5%"
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "amount": 400,
+      "name": "Sebastián López",
+      "date": "2023-05-01",
+      "status": "pending",
+      "address": "Calle 123",
+      "interest": "5%"
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "amount": 600000,
+      "name": "Alejandro Morales",
+      "date": "2023-07-01",
+      "status": "pending",
+      "address": "Calle 123",
+      "interest": "5%"
+    },
+    {
+      "id": 8,
+      "userId": 2,
+      "amount": 700000,
+      "name": "Daniela Herrera",
+      "date": "2023-08-01",
+      "status": "paid",
+      "address": "Calle 123",
+      "interest": "5%"
+    },
+    {
+      "id": 9,
+      "userId": 3,
+      "amount": 900000,
+      "name": "Miguel Vargas",
+      "date": "2023-09-01",
+      "status": "pending",
+      "address": "Calle 123",
+      "interest": "5%",
+      "dueDate": "2025-08-21"
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "amount": 90000,
+      "name": "Natalia Mendoza",
+      "date": "2023-10-01",
+      "status": "paid",
+      "address": "Calle 123",
+      "interest": "5%"
+    },
+    {
+      "id": 11,
+      "userId": 3,
+      "amount": 900000,
+      "name": "Natalia Mendoza",
+      "date": "2023-10-01",
+      "status": "paid",
+      "address": "Calle 123",
+      "interest": "5%"
+    },
+    {
+      "id": 12,
+      "userId": 3,
+      "name": "Lorena Sanchez",
+      "address": "calle 475",
+      "interest": "2%",
+      "amount": 800000,
+      "date": "2025-05-06",
+      "status": "pending"
+    },
+    {
+      "id": 11,
+      "userId": 3,
+      "name": "Garbriel Medina",
+      "address": "carrera 1982",
+      "interest": "3%",
+      "amount": 400000,
+      "date": "2025-05-01",
+      "status": "pending"
+    }
+  ],
+  "loans": [
+    {
+      "id": 1,
+      "userId": 1,
+      "amount": 500000,
+      "name": "Cristian Jiménez",
+      "date": "2023-01-15",
+      "address": "Calle 123",
+      "interest": "5%"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "amount": 1000000,
+      "name": "Camila Ríos",
+      "date": "2023-02-15",
+      "status": "pending",
+      "address": "Calle 234",
+      "interest": "5%"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "amount": 850000,
+      "name": "Laura Mendez",
+      "date": "2023-03-15",
+      "status": "rejected",
+      "address": "Calle 345",
+      "interest": "2%",
+      "dueDate": "2025-07-24"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "amount": 1250000,
+      "name": "- Javier Ortega",
+      "date": "2023-04-15",
+      "status": "approved",
+      "address": "Calle 456",
+      "interest": "5%"
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "amount": 1500000,
+      "name": "Paola Fernández",
+      "date": "2023-05-15",
+      "status": "pending",
+      "address": "Calle 567",
+      "interest": "5%"
+    },
+    {
+      "id": 6,
+      "userId": 3,
+      "amount": 2000000,
+      "name": "Carlos Martinez",
+      "date": "2023-06-15",
+      "status": "approved",
+      "address": "Calle 678",
+      "interest": "8%"
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "amount": 1750000,
+      "name": "Diego León",
+      "date": "2023-07-15",
+      "status": "pending",
+      "address": "Calle 789",
+      "interest": "5%"
+    },
+    {
+      "id": 8,
+      "userId": 2,
+      "amount": 2250000,
+      "name": "Gabriela León",
+      "date": "2023-08-15",
+      "status": "rejected",
+      "address": "Calle 891",
+      "interest": "5%"
+    },
+    {
+      "id": 9,
+      "userId": 3,
+      "amount": 3000000,
+      "name": "Efrain Gamez",
+      "date": "2023-09-15",
+      "status": "approved",
+      "address": "Calle 127",
+      "interest": "5%"
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "amount": 3500000,
+      "name": "Fernando Cárdenas",
+      "date": "2023-10-15",
+      "status": "pending",
+      "address": "Calle 234",
+      "interest": "5%"
+    }
+  ]
+}
